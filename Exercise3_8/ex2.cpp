@@ -21,12 +21,10 @@ bool isPalindrome(stack<char> stk, string input)
 {
     const auto len = stk.size();
     size_t i = 0;
-    cout << input << endl;
     while (i < len/2) 
     {
         const char lc = toupper(stk.top());
         const char rv = toupper(input[i]);
-        cout << lc << "!=" << rv << endl;
         if (lc != rv)
             return false;
         stk.pop();
