@@ -15,7 +15,6 @@ void printArray(T arr, const size_t perLine)
     }
 }
 
-
 int main()
 {
     array<long, 50> arr {0, 1};
